@@ -18,8 +18,8 @@ def main():
 
     yt_actions = YoutubeActions(profile_directory=profile_directory)
 
-    # yt_auth.auth()
-    yt_actions.send_a_comment(link_to_video, comment)
+    # # yt_auth.auth()
+    # yt_actions.send_a_comment(link_to_video, comment)
 
 
 if __name__ == '__main__':
